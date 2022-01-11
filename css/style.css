@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    color: teal;
+}
+.container{
+    width: 1000px;
+    background-color: #aae2b5;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile-image{
+   
+}
+.profile-image img{
+    border: 3px solid black;
+    border-radius: 50%;
+    opacity: 0.8;
+    float: left;
+    margin-bottom: 20px;
+
+}
+.header-bio{
+    margin-top: 35px;
+    padding-left: 10px;
+    float: left;
+}
+.header-bio a{
+    text-decoration: none;
+    color: teal;
+}
+.header-bio a:hover{
+    color: #434eff;
+}
+.header-contact{
+    float:right;
+    margin-top: 35px;
+
+}
+.header-contact p{
+    list-style-type: none;
+    
+
+}
+.header-contact  a{
+    text-decoration: none;
+    color: teal; 
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: #434eff;
+
+}
+.div-clear{
+    clear: both;
+    border-bottom: none;
+    border: 1px solid black ;
+    width: 100%;
+    
+}
+.content{
+    margin-top: 30px;
+    height: 100px;
+    
+}
+.content .Personal-left{
+    float: left;
+    width: 30%;
+
+}
+.content .Personal-right{
+    float:right;
+    width: 70%;
+
+}
+.work-left{
+    width: 30%;
+    float: left;
+
+}
+
+.work-right{
+    width: 70%;
+    float: left;
+    padding-bottom: 20px;
+}
+.comman-horizantal{
+    border:  1px solid black;
+    width: 100%;
+    border-bottom: none;
+
+}
+.work-experience{
+    margin-top: 30px;
+    height: 100px;
+}
+.work-experience h3{
+    width: 30%;
+    float: left;
+
+}
+.work-experience .work-right{
+    width: 70%;
+    float: left;
+    margin-top: 10px;
+}
+.education{
+    height: 50px;
+
+}
+.education-left{
+    float: left;
+    width: 30%;
+    height: 120px;
+
+}
+.edu-left{
+    float: left;
+    width: 35%;
+   
+}
+.edu-right{
+    float: right;
+    width: 35%;
+}
+.Honors{
+    height: 100px;
+}
+.honors-left{
+    float: left;
+    width: 30%;
+}
+.honors-right{
+    float: left;
+    width: 70%;
+}
+.skill{
+    margin-top: 20px;
+    height: 50px;
+    
+   
+
+}
+.skill-left{
+    float: left;
+    width: 30%;
+    height: 120px;
+
+}
+.sk-left{
+    float: left;
+    width: 35%;
+   
+}
+.sk-right{
+    float: right;
+    width: 35%;
+}
+
+.footer-menu{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+   height: 50px;
+
+    
+}
+.footer-menu a{
+    text-decoration:none;
+    margin: 2px;
+    border: 1px solid teal;
+    color: white;
+    padding: 8px;
+    background-color: rgb(68, 62, 126);
+    border-radius: 10px;
+    
+}
+.footer-menu a:hover{
+    background-color: black;
+    color: white;
+}
+.footer-menu h3{
+    padding: 20px;
+}
